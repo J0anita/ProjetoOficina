@@ -1,0 +1,89 @@
+Tabela Cliente
+
+INSERT INTO cliente(id_cliente, nome_cliente, telefone , email, cpf_cliente, datacadastro, observacao_cliente) VALUE
+(1, "Miguel", "81981648532", "miguelsantos@gmail.com", "72896578495", "2022-01-01", "Nada consta");
+
+Insert into cliente(id_cliente, nome_cliente, telefone , email, cpf_cliente, datacadastro, observacao_cliente) VALUE
+(2, "Alice", "81986579215", "alicebraga@gmail.com", "65964598532", "2020-12-20", "Nada consta");
+
+Insert into cliente(id_cliente, nome_cliente, telefone , email, cpf_cliente, datacadastro, observacao_cliente) VALUE
+(3, "Sophia", "81983754498", "sophialm@gmail.com", "78995865237", "2020-07-24", "Nada consta");
+
+Insert into cliente(id_cliente, nome_cliente, telefone , email, cpf_cliente, datacadastro, observacao_cliente) VALUE
+(4, "Lucas", "81996875321", "lucasafonso2@gmail.com", "84598702301", "2021-12-21", "Nada consta");
+
+Insert into cliente(id_cliente, nome_cliente, telefone , email, cpf_cliente, datacadastro, observacao_cliente) VALUE
+(5, "Bernardo", "81986664555", "blsouza@gmail.com", "79978412200", "2022-02-17", "Nada consta");
+
+
+Tabela Carro:
+
+INSERT INTO Carro (id_carro, Placa, Ano_carro, KM_Atual, Tipo de Combustivel, Marca, Modelo, Cor do Veiculo, observacao_carro) VALUE
+(1,'BRA0S19', '2018' , '45072', 'Flex', 'Volkswagen', '1.0 200 TSI HIGHLINE', 'Prata', 'PINTURA METALICA e VIDRO ELETRICO NAS 4 PORTAS com FREIOS COM ABS e AIR BAG DUPL');
+
+INSERT INTO Carro (id_carro, Placa, Ano_carro, KM_Atual, Tipo de Combustivel, Marca, Modelo, Cor do Veiculo, observacao_carro) VALUE
+(2, 'LSN4I49', '2018-2019', '34402', 'FLEX', 'Hyundai', '2.0 16V FLEX PRESTIGE AUTOMÁTICO','PRATA', 'PINTURA METALICA CRETA');
+
+INSERT INTO Carro (id_carro, Placa, Ano_carro, KM_Atual, Tipo de Combustivel, Marca, Modelo, Cor do Veiculo, observacao_carro) VALUE
+(3, 'RI02A18', '2019-2020', '36890', 'DIESEL', 'JEEP', 'HILUX 2.8 SRX 4X4 CD 16V DIESEL 4P', 'CINZA', 'Nada consta');
+
+INSERT INTO Carro (id_carro, Placa, Ano_carro, KM_Atual, Tipo de Combustivel, Marca, Modelo, Cor do Veiculo, observacao_carro) VALUE
+(4, 'QPK5C08', '2018-2019', '34402', 'FLEX', 'Hyundai', 'CRETA 2.0 16V FLEX PRESTIGE AUTOMÁTICO','PRATA', 'PINTURA METALICA CRETA');
+
+INSERT INTO Carro (id_carro, Placa, Ano_carro, KM_Atual, Tipo de Combustivel, Marca, Modelo, Cor do Veiculo, observacao_carro) VALUE
+(5, 'PCL2G43', '2019-2020', '22575', 'FLEX', 'TOYOTA', 'COROLLA 1.8 VVT-I HYBRID FLEX ALTIS PREMIUM CVT','BRANCO', 'Nada consta');
+
+
+Tabela Funcionario: 
+
+INSERT INTO Funcionario (id_funcionario, nome_funcionario, cpf_funcionario, matricula, data_admissao, ctps, tiposanguineo) VALUE
+(1,'Samuel', '78548588830', 'PE11', '2019-11-10', '15864-965', 'A');
+
+INSERT INTO Funcionario (id_funcionario, nome_funcionario, cpf_funcionario, matricula, data_admissao, ctps, tiposanguineo) VALUE
+(2,'Lucca', '88857814820", 'PE12', '2019-12-24', '14562-875', 'AB');
+
+INSERT INTO Funcionario (id_funcionario, nome_funcionario, cpf_funcionario, matricula, data_admissao, ctps, tiposanguineo) VALUE
+(3,'Clara', '78998758425', 'PE13', '2020-02-15', '35681-556', 'A');
+
+INSERT INTO Funcionario (id_funcionario, nome_funcionario, cpf_funcionario, matricula, data_admissao, ctps, tiposanguineo) VALUE
+(4,'Davi', '78748725800', 'PE14', '2020-05-01', '10254-215', 'O+');
+
+INSERT INTO Funcionario (id_funcionario, nome_funcionario, cpf_funcionario, matricula, data_admissao, ctps, tiposanguineo) VALUE
+(5,'Emanuel', '70015824522', 'PE15', '2021-05-12', '17985-355', 'A');
+
+
+Tabela Fornecedor: 
+
+
+INSERT INTO Fornecedor(id_fornecedor, CNPJ, RazaoSocial, Nome Fantasia, Telefone_fornecedor, DataCadastroFornecedor, email) VALUE
+(1, '61234985000104', 'Soda Cáustica Escama Ltda', 'CAMPNEUS', '8121026213', '2020-02-02', 'campneus@gmail.com');
+
+INSERT INTO Fornecedor(id_fornecedor, CNPJ, RazaoSocial, Nome Fantasia, Telefone_fornecedor, DataCadastroFornecedor, email) VALUE
+(2, '89578135000165', '', '', '', '', '');
+
+INSERT INTO Fornecedor(id_fornecedor, CNPJ, RazaoSocial, Nome Fantasia, Telefone_fornecedor, DataCadastroFornecedor, email) VALUE
+(3, '98256384000195', '', '', '', '', '');
+
+INSERT INTO Fornecedor(id_fornecedor, CNPJ, RazaoSocial, Nome Fantasia, Telefone_fornecedor, DataCadastroFornecedor, email) VALUE
+(4, '87998258000122', '', '', '', '', '');
+
+INSERT INTO Fornecedor(id_fornecedor, CNPJ, RazaoSocial, Nome Fantasia, Telefone_fornecedor, DataCadastroFornecedor, email) VALUE
+(5, '22654456000189', '', '', '', '', '');
+
+Tabela Endereco: 
+
+(inserir com o fornecedor1)
+INSERT INTO Endereco(id_endereco, rua, numero_endereco, complemento, bairro, cep, ponto de referencia) VALUE
+(1, 'Av Gal Olimpo da Silveira', '215', 'Nada consta', 'Santa Cecilia', '01150001', 'Proximo ao Hospital Santa Cecilia em Sao Paulo');
+
+INSERT INTO Endereco(id_endereco, rua, numero_endereco, complemento, bairro, cep, ponto de referencia) VALUE
+(1, '', '', '', '', '', '');
+
+INSERT INTO Endereco(id_endereco, rua, numero_endereco, complemento, bairro, cep, ponto de referencia) VALUE
+(1, '', '', '', '', '', '');
+
+INSERT INTO Endereco(id_endereco, rua, numero_endereco, complemento, bairro, cep, ponto de referencia) VALUE
+(1, '', '', '', '', '', '');
+
+INSERT INTO Endereco(id_endereco, rua, numero_endereco, complemento, bairro, cep, ponto de referencia) VALUE
+(1, '', '', '', '', '', '');
